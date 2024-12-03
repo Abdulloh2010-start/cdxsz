@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.d1{
+    width: 348px;
+    height: 312px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.d2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.d1 p span{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0 70px;
+}
+
+.d1 p{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.btn{
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(0, 110, 255);
+}
